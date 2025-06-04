@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Github, Linkedin, Mail, Download, ExternalLink, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -320,7 +319,7 @@ const Index = () => {
               onClick={() => window.open('mailto:epochalypse.ai@gmail.com')}
             >
               <Mail className="mr-2 h-4 w-4" />
-              Get In Touch
+              epochalypse.ai@gmail.com
             </Button>
           </div>
           <div className="flex justify-center space-x-6">
